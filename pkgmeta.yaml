@@ -1,0 +1,10 @@
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+ignore:
+  - package.json
+  - package-lock.json
+  - tools
+  - notes
+  - .gitignore
+  - logo.png

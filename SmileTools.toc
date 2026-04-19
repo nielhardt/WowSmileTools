@@ -1,0 +1,14 @@
+## Interface: 120001
+## Title: Smile Tools
+## Notes: Guild tools for Smile
+## Author: Nielhardt
+## Version: 1.0.0
+## IconTexture: Interface\AddOns\SmileTools\logo
+## X-Category: Guild
+
+## SavedVariables: SmileToolsDB
+
+Core.lua
+Log.lua
+Settings.lua
+SoulstoneCheck.lua

@@ -1,0 +1,33 @@
+{
+  "name": "wowsmiletools-devtools",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Local development utilities for Smile Tools addon",
+  "scripts": {
+    "sync": "node tools/wow-sync.mjs",
+    "sync:clean": "node tools/wow-sync.mjs --clean --once"
+  },
+  "wowSync": {
+    "includeGitignore": false,
+    "exclude": [
+      ".git",
+      ".git/**",
+      "node_modules",
+      "node_modules/**",
+      "tools",
+      "tools/**",
+      "notes",
+      "notes/**",
+      ".vscode",
+      ".vscode/**",
+      "package.json",
+      "package-lock.json",
+      ".gitignore",
+      "pkgmeta.yaml"
+    ]
+  },
+  "devDependencies": {
+    "chokidar": "^4.0.3",
+    "ignore": "^5.3.2"
+  }
+}
