@@ -1,3 +1,7 @@
+## v12.1.0.1
+### Changes
+- Updated Interface version to 120100 (patch 12.1.0)
+
 ## v12.0.7.1
 ### Changes
 - Updated Interface version to 120007 (patch 12.0.7) so the addon no longer loads as out-of-date
